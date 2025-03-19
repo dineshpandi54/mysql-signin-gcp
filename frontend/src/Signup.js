@@ -10,7 +10,7 @@ const Signup = () => {
         const navigate = useNavigate();
         const handleSubmit = async (event) =>{
             event.preventDefault();
-            await axios.post('http://34.46.111.91:4000/signup',{name,email,password})
+            await axios.post('http://34.66.216.45:4000/signup',{name,email,password})
             .then(res => {
                 navigate('/login');
             })

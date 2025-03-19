@@ -12,7 +12,7 @@ const Login = () => {
 
     const handleSubmit = async (event) =>{
         event.preventDefault();
-        await axios.post('http://34.46.111.91:4000/login',{email,password})
+        await axios.post('http://34.66.216.45:4000/login',{email,password})
         .then(res => {
             if(res.data === "success"){
                 navigate('/home');
