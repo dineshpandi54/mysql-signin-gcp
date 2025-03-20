@@ -1,0 +1,45 @@
+.success-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.success-container{
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(23, 237, 23);
+    text-align: center;
+}
+
+.success-btn{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(23, 237, 23);
+    padding: 10px;
+}
+
+.cancel-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cancel-container{
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px red;
+    text-align: center;
+}
+
+.cancel-btn{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color:red;
+    padding: 10px;
+}
